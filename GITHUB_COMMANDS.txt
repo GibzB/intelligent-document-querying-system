@@ -1,0 +1,16 @@
+# Commands to connect to GitHub and push
+
+# 1. Add remote repository
+git remote add origin https://github.com/GibzB/intelligent-document-querying-system.git
+
+# 2. Set main branch and push
+git branch -M main
+git push -u origin main
+
+# 3. For subsequent pushes after adding files
+git add .
+git commit -m "Your commit message"
+git push
+
+# Repository URL
+https://github.com/GibzB/intelligent-document-querying-system

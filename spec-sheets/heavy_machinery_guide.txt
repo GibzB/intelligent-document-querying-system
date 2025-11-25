@@ -1,0 +1,21 @@
+Heavy Machinery Operations Guide
+
+This guide covers essential information about excavators, bulldozers, and cranes.
+
+Excavators:
+- Operating weight: 15,000-90,000 kg
+- Engine power: 100-400 HP
+- Bucket capacity: 0.5-3.0 cubic meters
+- Maximum digging depth: 6-10 meters
+
+Bulldozers:
+- Engine: 200-800 HP turbocharged diesel
+- Blade width: 3-5 meters
+- Blade capacity: 4-20 cubic meters
+- Ground pressure: 10-15 PSI
+
+Safety Requirements:
+- Daily pre-operation inspection
+- Proper training certification required
+- Use of PPE (hard hat, steel-toed boots)
+- Clear communication with ground personnel

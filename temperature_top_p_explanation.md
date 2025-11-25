@@ -1,0 +1,9 @@
+# Model Parameters Explanation
+
+## Temperature Parameter
+
+The temperature parameter controls the randomness and creativity of the AI model's responses, with values ranging from 0.0 to 1.0. A lower temperature (e.g., 0.1-0.3) makes the model more deterministic and focused, causing it to select tokens with the highest probability, which is ideal for factual queries and consistent responses in a document querying system. Conversely, a higher temperature (e.g., 0.8-1.0) increases randomness and creativity, allowing the model to explore less probable tokens, which may be useful for generating diverse interpretations but can reduce accuracy for precise information retrieval. For this document querying application, a moderate temperature of 0.5-0.7 balances accuracy with natural language variation.
+
+## Top_P Parameter
+
+The top_p parameter, also known as nucleus sampling, controls the diversity of the model's output by limiting token selection to a cumulative probability threshold. When top_p is set to 0.9, the model considers the smallest set of tokens whose cumulative probability reaches 90%, effectively filtering out low-probability tokens that might introduce irrelevant or nonsensical content. A lower top_p value (e.g., 0.5) creates more focused and conservative responses by considering fewer tokens, while a higher value (e.g., 0.95-1.0) allows greater diversity. In combination with temperature, top_p helps fine-tune the balance between response creativity and reliability—for knowledge base queries, using top_p of 0.85-0.9 with temperature 0.5-0.7 typically produces accurate yet naturally worded answers that directly address user questions based on the document corpus.
